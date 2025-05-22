@@ -3,8 +3,9 @@ import streamlit as st
 st.set_page_config(page_title="Aplikasi Penilaian Keamanan Informasi")
 
 def main():
-    st.title("Aplikasi Penilaian Keamanan Informasi Berdasarkan ISO/IEC 27001:2022")
+    st.title("🛡️ Aplikasi Penilaian Keamanan Informasi Berdasarkan ISO/IEC 27001:2022")
     st.write("Jawablah pertanyaan-pertanyaan di bawah ini dengan benar.")
+    st.info("Dikembangkan oleh Kelompok Riset Keamanan Siber, Badan Riset dan Inovasi Nasional, Tahun 2025")
 
     st.sidebar.header("Menu")
     selected_page = st.sidebar.radio("Pilih Bagian", ["Informasi Umum", "Konteks Organisasi", "Kepemimpinan", "Perencanaan",
