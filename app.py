@@ -57,6 +57,7 @@ def konteks_organisasi():
             question,
             ('Iya', 'Tidak'),
             horizontal=True,
+            index=None,
             key=f"q_{i}"
             )
         if answer == 'Iya':
