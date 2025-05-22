@@ -52,11 +52,10 @@ def konteks_organisasi():
         ]
     domain1_count = 0
     for i, question in enumerate(pertanyaan1):
-        answer = st.selectbox(
+        answer = st.radio(
             question,
             ('Iya', 'Tidak'),
             horizontal=True,
-            index=0,
             key=f"q_{i}"
             )
         if answer == 'Iya':
